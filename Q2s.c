@@ -74,7 +74,7 @@ void main()
     {
     fprintf(gnuplotPipe, "%s \n", commandsForGnuplot[i]); //Send commands to gnuplot one by one.
     }
-    printf(''I used pyplot for comparing the numerical sol with analytical sol'');
+    
 }
 // 
 /* I used pyplot for comparing the numerical sol with analytical sol*/
