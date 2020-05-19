@@ -21,14 +21,14 @@ plt.ylabel(r'f',fontsize=15)
 plt.grid(True)
 
 plt.subplot(2,2,2)
-plt.plot(k,nft,'teal',label='Plotting of fourier transform of the measurements vs freqency(say)')
+plt.plot(k,nft,'teal')
 plt.xlabel(r'$\omega$',fontsize=16)
 plt.ylabel(r'$f(\omega)$',fontsize=16)
 
 plt.grid(True)
 
 plt.subplot(2,2,3)
-plt.plot(k,power_spec,'cyan',label='Plotting of power spectrum')
+plt.plot(k,power_spec,'cyan')
 
 plt.xlabel(r'$\omega$',fontsize=16)
 plt.ylabel(r'$|f(\omega)|^2$',fontsize=16)
@@ -36,7 +36,7 @@ plt.ylabel(r'$|f(\omega)|^2$',fontsize=16)
 plt.grid(True)
 
 plt.subplot(2,2,4)
-plt.hist(power_spec,bins, facecolor='salmon',label='Periodogram') 
+plt.hist(power_spec,bins, facecolor='salmon')
 plt.xlabel(r'$\omega$',fontsize=16)
 plt.ylabel(r'$|f(\omega_{binned})|^2$',fontsize=16)
 
